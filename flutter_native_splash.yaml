@@ -1,0 +1,22 @@
+flutter_native_splash:
+  # Ios & Android below 12
+  android: true
+  ios: true
+  web: false
+
+  image: assets/images/route.png
+  color: "#ffffff"
+  branding: assets/images/branding.png
+  branding_bottom_padding: 24
+  image_dark: assets/images/route_dark.png
+  color_dark: "#000000"
+  branding_dark: assets/images/branding_dark.png
+
+  android_12:
+    image: assets/images/splash_android_12.png
+    color: "#ffffff"
+    branding: assets/images/branding.png
+    branding_bottom_padding: 24
+    image_dark: assets/images/splash_android_12_dark.png
+    color_dark: "#000000"
+    branding_dark: assets/images/branding_dark.png
